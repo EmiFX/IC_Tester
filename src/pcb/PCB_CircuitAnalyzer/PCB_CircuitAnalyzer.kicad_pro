@@ -51,8 +51,27 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|93736588|51357958|b5c65ea0-848d-490a-9650-4e2b1f020c0e|9814b7f0-fe46-40f8-881e-8e4d10c254f9",
+          ""
+        ],
+        [
+          "unconnected_items|148010000|58017500|F.Cu|4|aaa04823-0e08-4be9-a82f-26411e1ef55b|e463bcaf-909e-4c2f-9e76-81b29683cbc0",
+          ""
+        ],
+        [
+          "unconnected_items|150550000|58017500|F.Cu|4|610dbde9-13fb-4162-826c-cf26d7db6834|0dcf2ac5-1ee3-4acb-b5c6-886f851b70f2",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -133,7 +152,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,7 +199,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +228,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -469,7 +495,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
