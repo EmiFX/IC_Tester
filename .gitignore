@@ -1,0 +1,81 @@
+# ─── PlatformIO ───────────────────────────────────────────────────────────────
+.pio/
+.pioenvs/
+.piolibdeps/
+cmake-build-*/
+.clang_complete
+.gcc-flags.json
+
+# ─── C / C++ ──────────────────────────────────────────────────────────────────
+*.o
+*.a
+*.so
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+build/
+dist/
+
+# ─── LabVIEW ──────────────────────────────────────────────────────────────────
+# .vi files are source — keep them
+*.aliases
+*.lvlps
+*.lvlibp
+*.lvclass.lv??
+*.lvproj.lv??
+_Build Output/
+builds/
+Builds/
+*.exe
+# LabVIEW auto-backup files
+*.bak
+*_bak.vi
+# LabVIEW 8.x temp snippets
+_VI Snippets/
+# compiled targets inside project
+*.llb
+
+# ─── KiCad ────────────────────────────────────────────────────────────────────
+# Auto-generated cache / local prefs — not needed in version control
+fp-info-cache
+*.kicad_prl
+# KiCad auto-save
+_autosave-*
+# KiCad backups dir (large, auto-regenerated)
+*-backups/
+# Production output zips (regenerate from design files)
+production/*.zip
+production/backups/
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ─── Editors / IDEs ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.code-workspace
+
+# ─── Logs / temp ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
