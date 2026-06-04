@@ -1,5 +1,7 @@
 # IC_Tester
 
+[Video Demostración](https://drive.google.com/file/d/17oGDeb1n3LcxcQWol-RU2FpxxYQ4iN93/view?usp=sharing)
+
 ## Descripción
 
 **IC_Tester** es un sistema de instrumentación electrónica diseñado para realizar pruebas automatizadas en circuitos integrados de la serie 74xx. Permite verificar el funcionamiento de compuertas lógicas mediante generación de señales digitales y análisis de respuestas.
