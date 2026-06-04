@@ -1,0 +1,3 @@
+opencv-python>=4.9
+easyocr>=1.7
+numpy>=1.24
