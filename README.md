@@ -55,17 +55,3 @@ El sistema se compone de:
 * ICs dañados → `RESULT: FAIL`
 * El sistema identifica correctamente grupos de compuertas defectuosas
 
-## Limitaciones
-
-* Solo soporta algunos ICs de la serie 74xx
-* Error de corriente residual en el PCB
-* Problemas de paralelismo en LabVIEW (VISA + TCP)
-* Detección de orientación (OCR) no integrada en versión final
-
-## Conclusión
-
-El proyecto demuestra que es posible construir un sistema de prueba de ICs confiable utilizando hardware accesible. Aunque es un prototipo, valida conceptos clave de instrumentación electrónica como adquisición de datos, comunicación serial y pruebas automatizadas.
-
-## Demo
-
-https://drive.google.com/file/d/17oGDeb1n3LcxcQWol-RU2FpxxYQ4iN93/view
